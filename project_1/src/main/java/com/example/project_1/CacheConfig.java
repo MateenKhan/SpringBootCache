@@ -14,8 +14,6 @@ public class CacheConfig {
     CacheManager cacheManager;
 
     public void evictAllCacheValues(String cacheName) {
-        Cache cache = cacheManager.getCache(cacheName);
-//        cache.
         cacheManager.getCache(cacheName).clear();
     }
 
