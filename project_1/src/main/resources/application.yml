@@ -1,0 +1,5 @@
+spring:
+  cache:
+    caffeine:
+      spec: expireAfterWrite=5s
+    cache-names: project2
